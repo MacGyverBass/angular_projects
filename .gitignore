@@ -1,0 +1,6 @@
+/overlay/home/node/*
+/projects/*
+
+.DS_Store
+
+!/**/.gitkeep
