@@ -13,3 +13,11 @@ Copy **~/.gitonfig** and **~/.gnupg/** from host system to **./overlay/home/node
 ## Project folders
 
 Projects are created in the **./projects/** folder.
+
+### Deploying an app
+
+- *./ng_build **ProjectName***
+- *cp Dockerfile_Example ./projects/**ProjectName**/dist/Dockerfile*
+- Edit the Dockerfile: replace **ProjectName** with the name of the project
+- *docker build -t="**ProjectName**:tagname" ./projects/**ProjectName**/dist/*
+- *docker run -it --rm --init -p 80:80 **ProjectName**:tagname*
