@@ -4,6 +4,7 @@ Usage of the scripts:
 
 - ./ng_new.sh **ProjectName** *options*
 - ./ng_serve.sh **ProjectName** *options*
+- ./ng_build.sh **ProjectName** *options*
 
 ## gitconfig and gnupg
 
